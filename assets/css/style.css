@@ -1,0 +1,31 @@
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: blueviolet;
+    height: 15rem;
+    justify-content: space-around;
+}
+.box1, .box2 {
+    height: 20rem;
+   margin: 20px;
+   background-color: cyan;
+}
+.box1 {
+    border: 2px solid black;
+    flex-basis: 60%;
+   
+
+}
+
+.box2 {
+    border: 2px solid black;
+    flex-basis: 40%;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    
+}
